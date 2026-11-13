@@ -1,0 +1,35 @@
+RELAY FOR MAC
+Universal installer · Apple silicon and Intel · macOS 14 or later
+
+INSTALL
+1. Drag Relay.app onto the Applications shortcut in this disk image.
+2. Open Relay from your Applications folder.
+3. Eject the Relay disk image after installing.
+
+ADB, scrcpy, and the viewer toolbar are included. The other Mac does not need
+Homebrew, Xcode, an Android SDK, or a separate Android companion app.
+
+FIRST ANDROID CONNECTION ON A NEW MAC
+Enable Developer options and USB debugging on the phone. Connect with a USB
+data cable and approve that Mac's USB debugging prompt on the phone. Click
+Mirror in Relay, or Connect via Wi-Fi to configure a wireless connection.
+Use the same trusted Wi-Fi network on both devices.
+
+IF MAC AUDIO IS UNAVAILABLE
+Relay retries without Mac playback if it cannot open the sound output.
+To restore playback, choose a working output in System Settings > Sound >
+Output, then click the muted speaker in the mirror toolbar.
+
+FIRST LAUNCH APPROVAL
+This build is locally signed and is not Apple-notarized. macOS may block its
+first launch on another Mac. Apple's instructions explain the manual approval:
+https://support.apple.com/en-us/102445
+After attempting to open Relay, look in System Settings > Privacy & Security
+for Open Anyway. A managed Mac may require its administrator's approval.
+
+IPHONE
+Relay opens Apple's iPhone Mirroring app. That feature requires compatible
+Apple hardware, macOS 15+, iOS 18+, and the same Apple Account. Relay's Android
+recording, capture, and quality controls apply to Android devices.
+
+The universal binaries contain native Apple silicon and Intel versions.

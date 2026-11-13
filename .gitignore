@@ -1,0 +1,14 @@
+.build/
+.swiftpm/
+.runtime/
+dist/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+adbkey
+adbkey.pub
